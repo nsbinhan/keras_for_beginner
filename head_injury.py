@@ -1,6 +1,3 @@
-# Objective: Use logistic regression model to match roughly the clinical characteristics of a 
-# sample of individuals who suffered minor head injuries
-
 # Step 1: Extract features
 
 # Read raw data
