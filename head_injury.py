@@ -78,6 +78,8 @@ model.summary()
 history = model.fit(tX_train, y_train, batch_size=50, epochs=100, verbose=1)
 
 # illustrate how loss and accuracy
+import matplotlib.pyplot as plt
+
 plt.plot(history.history['loss'], '--b')
 plt.plot(history.history['accuracy'], '--r')
 plt.title('training loss/accuracy')
