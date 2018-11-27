@@ -34,7 +34,7 @@ print('\nencoded_Y: \n', encoded_Y[0:5])
 
 # Split train set and test set randomly
 from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X, encoded_Y, test_size=0.2, random_state=45)
+X_train, X_test, y_train, y_test = train_test_split(X, encoded_Y, test_size=0.2, random_state=100)
 
 print('\nX_train: ', X_train.shape)
 print('\nX_test: ', X_test.shape)
