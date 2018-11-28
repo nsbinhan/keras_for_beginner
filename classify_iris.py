@@ -121,3 +121,6 @@ plt.show()
 eval_ret = model.evaluate(X_test, y_test)
 print('\n%s: %.02f' % (model.metrics_names[0], eval_ret[0]))
 print('\n%s: %.02f%%' % (model.metrics_names[1], eval_ret[1]*100))
+
+# Note: increasing output dimension of Dense layer might enhance accuracy
+# Ex: model.add(Dense(64, input_dim=dims, activation='relu'))
