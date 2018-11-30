@@ -4,12 +4,9 @@
 
 # Read raw data
 from pandas import read_csv
-data = read_csv("http://vincentarelbundock.github.io/Rdatasets/csv/datasets/iris.csv")
+data = read_csv("https://www.openml.org/data/get_csv/61/dataset_61_iris.arff")
 
 print('raw data: \n', data.head())
-
-data = data.drop((['Unnamed: 0']), axis=1)
-print('\nprocessed data: \n', data.head())
 
 dataset = data.values
 
