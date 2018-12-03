@@ -4,7 +4,7 @@
 
 # Read raw data
 from pandas import read_csv
-data = read_csv("https://www.openml.org/data/get_csv/61/dataset_61_iris.arff")
+data = read_csv("https://www.openml.org/data/get_csv/61/dataset_61_iris.csv")
 
 print('raw data: \n', data.head())
 
