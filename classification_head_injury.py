@@ -32,7 +32,7 @@ print('\nX: \n', X[0:5, :])
 print('\nY: \n', Y.shape)
 print('\nY: \n', Y[0:5])
 
-# Normalize or numberize labels 
+# Numberize labels 
 # This step is skipped if labels are numberical. It remains here for reference only.
 from sklearn.preprocessing import LabelEncoder
 encoder = LabelEncoder()
