@@ -23,7 +23,7 @@ print('\nX: \n', X[0:5, :])
 print('\nY: \n', Y.shape)
 print('\nY: \n', Y[0:5])
 
-# Normalize or numberize labels 
+# Numberize labels 
 from sklearn.preprocessing import LabelEncoder
 encoder = LabelEncoder()
 encoder.fit(Y)
